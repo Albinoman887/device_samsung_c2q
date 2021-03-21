@@ -10,8 +10,8 @@ TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 TARGET_OTA_ASSERT_DEVICE := c2q
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/x1q_chn_openx_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := vendor/variant_c2q_usa_openx_defconfig
+TARGET_KERNEL_CONFIG := vendor/x1q_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := vendor/variant_c2q_defconfig
 #KERNEL_LD := DEBUG_DEFCONFIG=vendor/aosp_defconfig
 
 # Bluetooth
